@@ -1,47 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Казаны, мангалы, коптильни</title>
-    <img src="Catalog/Images/Logo.jpg" alt="Logo">
-    <ul class="menu">
-        <li><a href="Index.html">Главная</a></li>
-        <li><a href="Catalog.html">Каталог</a></li>
-        <li><a href="Contacts.html">Контакты</a></li>
-    </ul>
-    <h2>ШАШЛЫК МАШЛЫК - Интернет магазин товаров для дачи и отдыха</h2>
-    <p>Мы&nbsp;рады приветствовать Вас в&nbsp;нашем <nobr>интернет-магазине</nobr>, за&nbsp;помощью в&nbsp;выборе товара Вы&nbsp;можете обратиться к&nbsp;нашим консультантам</p>
-    <hr />
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Казаны, мангалы, коптильни</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div id="logo">
+                    <img src="Catalog/Images/Logo.jpg" alt="Logo">
+                </div>
+                <div id="menu">
+                    <ul class="menulist">
+                        <li><a href="Index.html">Главная</a></li>
+                        <li><a href="Catalog.html">Каталог</a></li>
+                        <li><a href="Contacts.html">Контакты</a></li>
+                    </ul>
+                </div>    
+            </div>
+            <div class="content">
+                <div id="descr">
+                    <h2>ШАШЛЫК МАШЛЫК - Интернет магазин товаров для дачи и отдыха</h2>
 
-<body>
-    <h2>Контакты</h2>
+                    <p>Мы&nbsp;рады приветствовать Вас в&nbsp;нашем <nobr>интернет-магазине</nobr>, за&nbsp;помощью в&nbsp;выборе товара Вы&nbsp;можете обратиться к&nbsp;нашим консультантам</p>
+                                
+                    <hr />        
+                </div>
+                <div id="pagecontent">
+                    <h2>Контакты</h2>
 
-    <form action="">
-        <fieldset class="contacts">
-            <legend>Напишите нам</legend>
-            <input type="text" size="30" placeholder="" id="Name">
-            <label for="Name"> Ваше имя</label><br><br>
-            <input type="text" size="30" placeholder="" id="Email">
-            <label for="Email">E-Mail</label><br><br>
-            <input type="text" size="30" placeholder="" id="Subject">
-            <label for="Subject">Тема</label><br><br>
-            <textarea name="SubjectText" id="SubjectText" cols="45" rows="5" placeholder="Ваше сообщение"></textarea>
-            <p><input type="submit" value="Отправить"></p>
-            <p><input type="reset" value="Очистить"></p>
-        </fieldset>
-    </form>
-    
-    <h3>Адрес:</h3>
-    <ul> 
-        <li>Контактный телефон: <nobr>+7(2345)765-98-15</nobr></li> 
-        <li>г.&nbsp;Бобруйск, ул.&nbsp;<nobr>Бобровая-11</nobr>, офис 415</li> 
-        <li><nobr>E-mail</nobr>: managers@shashlykmashlyk.ru</li> 
-    </ul> 
-    <hr />
-</body>
-<footer>
-    &copy;Все права защищены
-</footer>
+                    <form action="">
+                        <fieldset class="contacts">
+                            <legend>Напишите нам</legend>
+                            <input type="text" size="30" placeholder="" id="Name">
+                            <label for="Name"> Ваше имя</label><br><br>
+                            <input type="text" size="30" placeholder="" id="Email">
+                            <label for="Email">E-Mail</label><br><br>
+                            <input type="text" size="30" placeholder="" id="Subject">
+                            <label for="Subject">Тема</label><br><br>
+                            <textarea name="SubjectText" id="SubjectText" cols="45" rows="5" placeholder="Ваше сообщение"></textarea>
+                            <p><input type="submit" value="Отправить"></p>
+                            <p><input type="reset" value="Очистить"></p>
+                        </fieldset>
+                    </form>
+
+                    <h3>Адрес:</h3>
+                    <ul class="fb"> 
+                        <li>Контактный телефон: <nobr>+7(2345)765-98-15</nobr></li> 
+                        <li>г.&nbsp;Бобруйск, ул.&nbsp;<nobr>Бобровая-11</nobr>, офис 415</li> 
+                        <li><nobr>E-mail</nobr>: managers@shashlykmashlyk.ru</li> 
+                    </ul> 
+                </div>
+                
+            </div>
+            <div class="footer">
+                <span id="alrghtrsrvd">
+                    &copy;Все права защищены
+                </span>
+            </div>
+        </div>
+    </body>
 </html>
+

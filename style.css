@@ -1,21 +1,120 @@
-body{
-    background-color: #f8f8f8;
+.container {
+  width: 800px;
+  margin: 0 auto;
+  /*border: 1px solid #000;*/
 }
 
-.menu li > a {
-    color: darkblue;    
-    font-size: 20px;
-    font-style: oblique;
-    text-decoration: none;
+.header {
+  background-color: #2118ff;
+  height: 100px;
+  /*border: 1px solid #f00;*/
 }
 
-.menu li {
+#logo {
+  width: 130px;
+  height: 85px;
+  /*border: 1px solid #fff;*/
+  float: left;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#menu {
+  width: 400px;
+  height: 85px;
+  /*border: 1px solid #fff;*/
+  float: right;
+  margin-top: 5px;
+  margin-left: 5px;  
+  margin-right: 5px;
+}
+
+.menulist li {
     list-style-type: none;
     text-align: left;
 }
 
-.menu li a:hover{
+.menulist li > a {
+    color: white;    
+    font-size: 20px;
+    font-style: oblique;
+    text-decoration: none;
+    width: 100px;
+    float: left;
+}
+
+.menulist li a:hover{
     color: green;
+}
+
+.content {
+    background-color: #e1e0e1;
+    /*border: 1px solid red;*/
+    height: 1010px;
+}
+
+#descr {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#pagecontent {
+    /*
+    border: 1px solid #000;
+    margin-top: 0px;
+    */
+    padding-left: 10px;
+    padding-right: 10px;    
+}
+
+.mainCatalog li {
+    list-style-type: none;
+    font-size: 18px;
+    font-style: normal;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.mainCatalog li > a {
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.mainCatalog li a:hover {
+    color: green;
+}
+
+p[class="articleFull"]:first-letter {
+    font: italic bold 30px "Times New Roman", Times, serif;
+    color: #F00;
+    /*border: 1px solid #900;*/
+}
+
+.img {
+    float: left;
+    
+}
+
+h3.articleTitle {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    overflow: hidden;
+}
+
+
+.articleShort {
+    margin-top: 0px;
+    margin-bottom: 100px;
+
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+    padding-left: 150px;
 }
 
 .articleTitle {
@@ -23,13 +122,9 @@ body{
     font-size: 14px;
     font-weight: 400;
     background-color: #eaeaea;
-}
-
-.articleShort {
-    color: #707070;
-    font-size: 14px;
-    font-style: italic;
-    line-height: 16px;
+    padding-left: 10px;
+    /*margin-bottom: 0px;*/
+    /*clear: both;*/
 }
 
 .articleFull {
@@ -38,11 +133,43 @@ body{
     font-weight: 400;
     line-height: 24px;
     text-align: left;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .articleProp li {
     font-size: 12px;
     list-style-type: circle;
+}
+
+table {
+    width: 400px;
+    border: 1px solid #CCC;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #CCC;
+    column-span: all;
+}
+
+ul.backMenu {
+    vertical-align: bottom;
+}
+
+.backMenu li {
+    list-style-type: none;
+    text-align: center;
+}
+
+.backMenu li > a {
+    color: darkblue;    
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.backMenu li a:hover{
+    color: green;
 }
 
 .contacts legend{
@@ -88,59 +215,13 @@ body{
 
 }
 
-.img {
-    border-color: blue;
-    border-style: solid;
-    border-width: 1px;
+.footer {
+  background-color: #905bae;
+  height: 100px;
 }
 
-.mainCatalog li {
-    list-style-type: none;
-    font-size: 18px;
-    font-style: normal;
-    text-decoration: none;
-}
-
-.mainCatalog li > a {
-    text-decoration: none;
-}
-
-.mainCatalog li a:hover {
-    color: green;
-}
-
-.backMenu li > a {
-    color: darkblue;    
-    font-size: 20px;
-    text-decoration: none;
-}
-
-.backMenu li {
-    list-style-type: none;
-    text-align: center;
-}
-
-.backMenu li a:hover{
-    color: green;
-}
-
-table {
-    width: 400px;
-    border: 1px solid #CCC;
-    border-collapse: collapse;
-}
-
-td {
-    border: 1px solid #CCC;
-    column-span: all;
-}
-
-p[class="articleFull"]:first-letter {
-    font: italic bold 50px "Times New Roman", Times, serif;
-    color: #F00;
-    /*border: 1px solid #900;*/
-}
-
-.head {
-    line-height: 2;
+#alrghtrsrvd {
+    float: right;
+    margin-top: 40px;
+    margin-right: 40px;
 }
